@@ -1,0 +1,9 @@
+{
+  "name": "facildent-gestion",
+  "productName": "Facil Dent Gestión",
+  "version": "1.3.0",
+  "description": "Caja, gastos, tratamientos y agenda de Facil Dent",
+  "main": "main.js",
+  "author": "Facil Dent",
+  "license": "UNLICENSED"
+}

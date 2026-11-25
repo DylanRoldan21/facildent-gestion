@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facil Dent · Gestión</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="brand">
+      <img class="brand-img" src="logo.png" alt="Facil Dent">
+      <div>
+        <div class="brand-name">Facil Dent</div>
+        <div class="brand-sub">Gestión de clínica</div>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="side-foot">
+      <div id="side-caja"></div>
+      <div class="side-ver">v1.3 · datos guardados en este equipo</div>
+    </div>
+  </aside>
+  <main>
+    <header id="topbar">
+      <div>
+        <h1 id="page-title">Inicio</h1>
+        <div id="page-date" class="muted"></div>
+      </div>
+      <div class="top-actions">
+        <button class="btn ghost" data-action="nueva-cita"><i data-i="cal-plus"></i>Nueva cita <kbd>F3</kbd></button>
+        <button class="btn primary" data-action="nuevo-cobro"><i data-i="cash"></i>Nuevo cobro <kbd>F2</kbd></button>
+      </div>
+    </header>
+    <section id="view"></section>
+  </main>
+</div>
+<div id="modal-root"></div>
+<div id="toast-root"></div>
+<iframe id="print-frame" title="impresion" aria-hidden="true"></iframe>
+<script src="logo-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
